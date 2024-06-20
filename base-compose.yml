@@ -1,7 +1,7 @@
 version: "3"
 services:
     game-engine:
-        image: hub.docker.com/gocoderone/bomberland-engine:2477
+        image: gocoderone/bomberland-engine:2477
         volumes:
             - type: "bind"
               source: ./agents/replay.json
